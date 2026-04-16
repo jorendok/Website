@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>immerse design 沐慕設計-網站首頁對稿專用</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+        .top-bar {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .top-bar button {
+            padding: 8px 12px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+        .desktop-img {
+            display: block;
+        }
+        .mobile-img {
+            display: none;
+        }
+        @media (max-width: 768px) {
+            .desktop-img {
+                display: none;
+            }
+            .mobile-img {
+                display: block;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="image-container">
+        <a href="https://demo.noyahost.com/web/immerse/index_v2.html"><img class="desktop-img" src="immerse_website_homepage_desktop.jpg" alt="桌機版圖片"></a>
+        <a href="https://demo.noyahost.com/web/immerse/index_v2.html"><img class="mobile-img" src="immerse_website_homepage_mobile.jpg" alt="手機版圖片"></a>
+    </div>
+</body>
+</html>
